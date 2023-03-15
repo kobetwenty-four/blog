@@ -6,10 +6,10 @@
 set -e
 
 git add -A
-git commit -m '$1'
+git commit -m $1
 
 
-git  pull git@github.com:kobetwenty-four/blog.git master
-git push git@github.com:kobetwenty-four/blog.git master
+git  pull git@github.com:kobetwenty-four/blog.git main
+git push git@github.com:kobetwenty-four/blog.git main
 
 echo 'pages 推送成功';
